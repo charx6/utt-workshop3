@@ -1,7 +1,7 @@
-utt-workshop
+utt-workshop : TP with Github
 ==============================
 
-utt-workshop git
+utt-workshop git project to get started with Github CL and pipeline automation
 
 Project Organization
 ------------
@@ -54,4 +54,16 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+<p>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</p>
+
+--------
+
+Contributors
+------------
+
+    ├── Andre WACHE
+    ├── Charles B.
+    ├── Mehdi K.
+    ├── Farah A
+
+--------
