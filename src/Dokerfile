@@ -1,5 +1,5 @@
 # pull official base image
-FROM python:alpine
+FROM python
 
 # set work directory
 WORKDIR /usr/src/app
@@ -7,6 +7,8 @@ WORKDIR /usr/src/app
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
+ENV FLASK_APP app.py
+
 
 # install dependencies
 RUN pip install --upgrade pip
@@ -19,5 +21,5 @@ RUN mkdir apiFlask
 COPY apiFlask/* apiFlask/.
 RUN cd apiFlask
 EXPOSE 5000
-CMD ["flask", "run"] 
+CMD ["python", "apiFlask/app.py"] 
 
